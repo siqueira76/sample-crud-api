@@ -51,10 +51,10 @@ public class SwaggerConfig {
 	}
 
 	private ApiInfo apiInfo() {
-		return new ApiInfo("API do curso Spring Boot",
+		return new ApiInfo("Exemplo do CRUD em uma API RestFull Spring Boot",
 				"Este é um exemplo de um RestFull API CRUD", "Versão 1.0",
 				"none",
-				new Contact("José Carlos Siqueira", "siqueira", "josecarlos.siqueira76@gmail.com"),
+				new Contact("José Carlos Siqueira", "https://siqueira76.github.io/", "josecarlos.siqueira76@gmail.com"),
 				"Permitido uso para estudantes e recrutadores", "none", Collections.emptyList() // Vendor
 																										// Extensions
 		);
